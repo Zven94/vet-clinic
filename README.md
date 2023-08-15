@@ -138,7 +138,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/AndreaM2429/vet_clinic
+  git clone https://github.com/Zven94/vet_clinic
 ```
 
 ### Install
