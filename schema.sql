@@ -10,3 +10,8 @@ CREATE TABLE animals (
     neutered BOOLEAN,
     weight_kg FLOAT
 );
+
+/*   add species columns as string   */
+
+ALTER TABLE animals
+ADD species TYPE VARCHAR(255);
