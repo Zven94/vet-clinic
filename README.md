@@ -41,7 +41,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 About the Project](#vet-clinic)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -63,11 +63,19 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic] <a name="vet-clinic"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**[Vet Clinic]** use a relational database to create the data structure for a vet clinic. It started with one table complete with data about:
+
+- animals
+- animals' owners
+- clinic employees
+- visits
+
+Apart from building data structure, it have SQL queries to answer specific questions about date.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -102,19 +110,10 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[The schema.sql contain the query to create the vet_clinic database and the animal table]**
+- **[The data.sql contain the queries to insert the data]**
+- **[The queries.sql contains some query examples, transactions and specific queries to answer some questions]**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](<replace-with-your-deployment-URL>)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,83 +121,57 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need to install the following:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- **PostgreSQL**: you can download it from [here](https://www.postgresql.org/download/).
+- **Code editor**
+- **Git**: to clone the repo you need to have Git in your machine, [here](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git) you can see the installation process.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/Zven94/vet_clinic
 ```
---->
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+This project don't need any speciall installation
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
+To run the project, you need to create a new data base and access to it with the following commands in your command line:
 
 ```sh
-  rails server
+  psql
 ```
---->
+```sh
+  CREATE DATABASE vet_clinic
+```
+```sh
+  \c vet_clinic
+```
+
+Copy and paste the queries from `schema.sql` and after the `data.sql` in that order.
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
+To see the whole information in the table run the following command and also copy and pase each query on the `queries.sql` file to see the differents outpouts:
 
 ```sh
-  bin/rails test test/models/article_test.rb
+  SELECT * from animals;
 ```
---->
 
 ### Deployment
 
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+This project can't be deployed for any who aren't the owner.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,17 +181,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Nico**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Zven94)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolas-emiliano/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,9 +195,11 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Create animals' owners, clinic employees and visits tables**
+- [ ] **[Query multiple tables]**
+- [ ] **[Add join table for visits]**
+- [ ] **Database performance audit**
+- [ ] **Add database schema diagram**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
