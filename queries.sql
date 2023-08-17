@@ -96,7 +96,7 @@ vet_clinic=# SELECT s.name AS species_name, COUNT(*) AS animal_count FROM animal
 
 /*  List all Digimon owned by Jennifer Orwell   */
 
-vet_clinic=# SELECT s.name AS digimon_name FROM animals a JOIN species s ON a.species_id = s.id JOIN owners o ON a.owner_id = o.id WHERE s.name = 'Digimon' AND o.full_name = 'Jennifer Orwell';
+SELECT a.name AS digimon_name  FROM animals a JOIN species s ON a.species_id = s.id JOIN owners o ON a.owner_id = o.id WHERE s.name = 'Digimon' AND o.full_name = 'Jennifer Orwell';
 
 /*  List all animals owned by Dean Winchester that haven't tried to escape  */
 
