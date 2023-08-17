@@ -14,29 +14,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -67,14 +44,14 @@ After you're finished please remove all the comments and instructions!
 
 > Describe your project in 1 or 2 sentences.
 
-**[Vet Clinic]** use a relational database to create the data structure for a vet clinic. It started with one table complete with data about:
+  **[Vet Clinic]** use a relational database to create the data structure for a vet clinic. It started with one table complete with data about:
 
-- animals
-- animals' owners
-- clinic employees
-- visits
+  - animals
+  - animals' owners
+  - clinic employees
+  - visits
 
-Apart from building data structure, it have SQL queries to answer specific questions about date.
+  Apart from building data structure, it have SQL queries to answer specific questions about date.
 
 
 ## 🛠 Built With <a name="built-with"></a>
