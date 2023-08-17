@@ -32,6 +32,10 @@ vet_clinic-# ('Melody Pond', 77),
 vet_clinic-# ('Dean Winchester', 14),
 vet_clinic-# ('Jodie Whittaker',38);
 
+/*  Fix SAM SMITH age   */
+
+vet_clinic=# UPDATE owners SET age = 34 WHERE full_name = 'Sam Smith';
+
 /*  Insert the following data into the species table  */
 
 vet_clinic=# INSERT INTO species (name)
