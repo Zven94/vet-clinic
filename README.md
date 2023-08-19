@@ -42,7 +42,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 # 📖 [Vet Clinic] <a name="vet-clinic"></a>
 
-> Describe your project in 1 or 2 sentences.
 
   **[Vet Clinic]** use a relational database to create the data structure for a vet clinic. It started with one table complete with data about:
 
@@ -58,7 +57,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -85,7 +83,6 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[The schema.sql contain the query to create the vet_clinic database and the animal table]**
 - **[The data.sql contain the queries to insert the data]**
@@ -156,7 +153,6 @@ This project can't be deployed for any who aren't the owner.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
 👤 **Nico**
 
@@ -170,7 +166,6 @@ This project can't be deployed for any who aren't the owner.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **Create animals' owners, clinic employees and visits tables**
 - [ ] **[Query multiple tables]**
@@ -194,7 +189,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 If you like this project...
 
@@ -204,7 +198,6 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
@@ -214,7 +207,6 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 
 - **[Question_1]**
 

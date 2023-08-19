@@ -54,3 +54,34 @@ ADD COLUMN species_id INT REFERENCES species(id);
 
 ALTER TABLE animals
 ADD COLUMN owner_id INT REFERENCES owner(id);
+
+/*  FOURTH PART   */
+
+/*  Create vets TABLE */
+
+CREATE TABLE vets (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    PRIMARY KEY (id),
+    name VARCHAR(255),
+    age INT,
+    date_of_graduation DATE
+);
+
+/*  Create species TABLE */
+
+CREATE CREATE specializations (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    PRIMARY KEY (id),
+    idvets INT,
+    idspecies INT
+);
+
+/*  Create visits TABLE */
+
+CREATE CREATE visits (
+    id INT GENERATED ALWAYS AS IDENTITY,
+    PRIMARY KEY (id),
+    idanimals INT,
+    idvets INT,
+    date_of_visits INT
+);
