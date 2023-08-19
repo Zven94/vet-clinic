@@ -63,3 +63,45 @@ vet_clinic=# UPDATE animals AS a SET owner_id = o.id FROM owners AS o WHERE a.na
 
 vet_clinic=# UPDATE animals AS a SET owner_id = o.id FROM owners AS o WHERE a.name IN ('Angemon','Boarmon') AND o.full_name = 'Dean Winchester';
 
+/*  FOURTH PART   */
+
+/*  INSERT DATA TO VETS TABLE   */ 
+
+vet_clinic=# INSERT INTO vets (name,age,date_of_graduation)
+vet_clinic-# VALUES ('William Tatcher',45,'2000/04/23'),
+vet_clinic-# ('Maisy Smith',26,'2019/01/17'),
+vet_clinic-# ('Stephanie Mendez',45,'1981/05/04'),
+vet_clinic-# ('Jack Harkness',38,'2008/06/08');
+
+/*  INSERT DATA TO SPECIALIZATIONS TABLE   */ 
+
+vet_clinic=# INSERT INTO specializations (id,idvets,idspecies)
+vet_clinic-# VALUES (1,1),
+vet_clinic-# (3,1),
+vet_clinic-# (3,2),
+vet_clinic-# (4,2);
+
+/*  INSERT DATA TO visits TABLE   */
+
+INSERT INTO visits(idanimals,idvets,date_of_visit)
+VALUES (1,1,'2020/05/24'),
+(1,3,'2020/06/22'),
+(2,4,'2021/01/02'),
+(3,2,'2020/01/05'),
+(3,2,'2020/03/08'),
+(3,2,'2020/04/14'),
+(4,3,'2021/05/04'),
+(9,4,'2021/02/24'),
+(10,2,'2019/12/21'),
+(10,1,'2020/08/10'),
+(10,2,'2021/04/07'),
+(11,3,'2019/09/29'),
+(12,4,'2020/10/03'),
+(12,4,'2020/11/04'),
+(13,2,'2019/01/24'),
+(13,2,'2019/05/15'),
+(13,2,'2020/02/27'),
+(13,2,'2020/08/03'),
+(14,3,'2020/05/24'),
+(14,1,'2021/01/11');
+
