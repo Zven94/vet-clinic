@@ -67,19 +67,19 @@ vet_clinic=# UPDATE animals AS a SET owner_id = o.id FROM owners AS o WHERE a.na
 
 /*  INSERT DATA TO VETS TABLE   */ 
 
-vet_clinic=# INSERT INTO vets (name,age,date_of_graduation)
-vet_clinic-# VALUES ('William Tatcher',45,'2000/04/23'),
-vet_clinic-# ('Maisy Smith',26,'2019/01/17'),
-vet_clinic-# ('Stephanie Mendez',45,'1981/05/04'),
-vet_clinic-# ('Jack Harkness',38,'2008/06/08');
+ INSERT INTO vets (name,age,date_of_graduation)
+ VALUES ('William Tatcher',45,'2000/04/23'),
+ ('Maisy Smith',26,'2019/01/17'),
+ ('Stephanie Mendez',45,'1981/05/04'),
+ ('Jack Harkness',38,'2008/06/08');
 
 /*  INSERT DATA TO SPECIALIZATIONS TABLE   */ 
 
-vet_clinic=# INSERT INTO specializations (id,idvets,idspecies)
-vet_clinic-# VALUES (1,1),
-vet_clinic-# (3,1),
-vet_clinic-# (3,2),
-vet_clinic-# (4,2);
+ INSERT INTO specializations (id,idvets,idspecies) 
+ VALUES (1,1),
+ (3,1),
+ (3,2),
+ (4,2);
 
 /*  INSERT DATA TO visits TABLE   */
 
