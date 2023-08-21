@@ -172,3 +172,13 @@ FROM (
 ) AS most_common_species
 JOIN specializations sp ON most_common_species.species_id = sp.idspecies
 JOIN species s ON sp.idspecies = s.id;
+
+/* PAIR PROGRAMING: FIRST PART  */
+
+/*  TO KNOW HOW MANY TIME GET TO FINISH THE QUERIE  */
+
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where idanimals = 4;
+
+EXPLAIN ANALYZE SELECT * FROM visits where idvets = 2;
+
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
