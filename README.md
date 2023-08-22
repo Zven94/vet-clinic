@@ -156,9 +156,18 @@ This project can't be deployed for any who aren't the owner.
 
 👤 **Nico**
 
-- GitHub: [@githubhandle](https://github.com/Zven94)
+- GitHub: [@Zven94](https://github.com/Zven94)
 
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nicolas-emiliano/)
+
+👤 **Alex**
+
+- GitHub: [@alexmedinasf](https://github.com/alexmedinasf)
+
+
+👤 **Andy**
+
+- GitHub: [@Dachrono](https://github.com/Dachrono)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

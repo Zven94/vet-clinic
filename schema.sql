@@ -85,3 +85,18 @@ CREATE CREATE visits (
     idvets INT,
     date_of_visits INT
 );
+
+
+/*  Pair programing project: first part    */
+
+
+/*  Create index for visits table:  */
+
+
+CREATE INDEX visits_index ON visits (idanimals ASC)
+
+CREATE INDEX visits_idvets ON visits (idvets ASC)
+
+/*  Create index for owners table:  */
+
+CREATE INDEX owners_emails ON owners (email)
